@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Corinthia';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./assets/fonts/Corinthia/Corinthia-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Niramit';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('./assets/fonts/Niramit/Niramit-Regular.ttf') format('truetype');
+}
+
+@theme {
+  --color-dark-gold: #503C17;
+  --color-very-light-gold: #FFF8EA;
+  --background-white: #FFFCF8;
+  --color-gold: #8D6A29;
+}
