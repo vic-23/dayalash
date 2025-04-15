@@ -35,10 +35,12 @@ const Nav = () => {
             <img src={Logo} alt={'logo'} className={'h-11'} />
             <img src={star} alt={'star'} className={' absolute -bottom-4 left-3 w-8 h7 '} />
           </div>
-          <Link link={'#entrenamiento'} linkTitle={'Entrenamientos'} />
-          <Link link={'#servicios'} linkTitle={'Servicios'} />
-          <Link link={'#sobreMi'} linkTitle={'Sobre mi'} />
-          <Link link={'#contacto'} linkTitle={'Contacto'} />
+          <div className={' w-full flex flex-col gap-4 pt-4 px-4 '} >
+            <Link link={'#entrenamiento'} linkTitle={'Entrenamientos'} />
+            <Link link={'#servicios'} linkTitle={'Servicios'} />
+            <Link link={'#sobreMi'} linkTitle={'Sobre mi'} />
+            <Link link={'#contacto'} linkTitle={'Contacto'} />
+          </div>
         </div>
       )}
     </nav>

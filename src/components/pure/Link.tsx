@@ -5,7 +5,7 @@ type LinkProps = {
 
 const Link = ({link, linkTitle}:LinkProps) => {
   return (
-    <a href={link}>{linkTitle}</a>
+    <a href={link} className={' border-b-1 border-(--color-gold) py-3 '} >{linkTitle}</a>
   )
 }
 
