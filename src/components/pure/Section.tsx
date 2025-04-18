@@ -4,7 +4,9 @@ type SectionProps = {
 
 const Section = ({ idName }:SectionProps) => {
   return (
-    <section id={idName} >This is a section</section>
+    <section>
+      <div id={idName} className={' min-h-screen flex justify-center items-center '} >This is a {idName}</div>
+    </section>
   )
 }
 
