@@ -1,10 +1,10 @@
-type MainProps = {
-  idMain: string;
-}
+import Section from "./pure/Section.tsx";
 
-const Main = ({idMain}:MainProps) => {
+const Main = () => {
   return (
-    <main id={idMain} >This is Component Main</main>
+    <main>
+      <Section idMain={idMain} />
+    </main>
   )
 }
 

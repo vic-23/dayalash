@@ -6,11 +6,7 @@ const LandingPage = () => {
   return (
     <div className='min-h-screen'>
       <Header />
-      <Main idMain={'#'} />
-      <Main idMain={'entrenamiento'} />
-      <Main idMain={'servicios'} />
-      <Main idMain={'sobreMi'} />
-      <Main idMain={'contacto'} />
+      <Main />
       <Footer />
     </div>
   )
