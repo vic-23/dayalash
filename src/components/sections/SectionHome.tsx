@@ -5,7 +5,7 @@ type SeccinOneProps = {
   idName: string;
 }
 
-const SeccionOne = ({ idName }:SeccinOneProps) => {
+const SectionHome = ({ idName }:SeccinOneProps) => {
   return (
     <section id={idName} className="relative z-0 h-screen flex flex-col border-b-2 border-(--color-gold)">
       <div className="px-4 mb-4">
@@ -23,4 +23,4 @@ const SeccionOne = ({ idName }:SeccinOneProps) => {
   )
 }
 
-export default SeccionOne
+export default SectionHome
