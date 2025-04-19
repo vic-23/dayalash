@@ -25,11 +25,11 @@
 }
 
 @font-face {
-  font-family: 'Niramit-extralight';
+  font-family: 'Niramit-SemiBold';
   font-style: normal;
   font-weight: auto;
   font-display: swap;
-  src: url('./assets/fonts/Niramit/Niramit-ExtraLight.ttf') format('truetype');
+  src: url('./assets/fonts/Niramit/Niramit-SemiBold.ttf') format('truetype');
 }
 
 @theme {
