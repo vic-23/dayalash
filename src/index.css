@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: 'Niramit';
+  font-family: 'Niramit-bold';
   font-style: normal;
   font-weight: bold;
   font-display: swap;
@@ -29,4 +29,8 @@
   --color-very-light-gold: #FFF8EA;
   --background-white: #FFFCF8;
   --color-gold: #8D6A29;
+  --breakpoint-xs: 15rem;
+  --breakpoint-2xs: 21rem;
+  --text-tiny: 2.50rem;
+  --mobile-bg-position: -4rem ;
 }
