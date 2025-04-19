@@ -24,6 +24,14 @@
   src: url('./assets/fonts/Niramit/Niramit-Bold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Niramit-extralight';
+  font-style: normal;
+  font-weight: auto;
+  font-display: swap;
+  src: url('./assets/fonts/Niramit/Niramit-ExtraLight.ttf') format('truetype');
+}
+
 @theme {
   --color-dark-gold: #503C17;
   --color-very-light-gold: #FFF8EA;
