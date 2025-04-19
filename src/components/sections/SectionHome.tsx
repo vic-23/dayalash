@@ -9,8 +9,8 @@ const SectionHome = ({ idName }:SeccinOneProps) => {
   return (
     <section id={idName} className="relative z-0 h-screen flex flex-col border-b-2 border-(--color-gold)">
       <div className="px-4 mb-4">
-        <h1 className="flex flex-col gap-3 font-[Niramit-bold] text-[2.50rem] xs:text-4xl 2xs:text-tiny sm:text-5xl leading-none">
-          Revela tu belleza <span className="font-[Corinthia] text-(--color-gold)">con pestañas</span>
+        <h1 className="flex flex-col gap-3 font-[Niramit-bold] text-[clamp(2.3rem,11vw,4rem)] leading-none">
+          Revela tu belleza <span className="font-[Corinthia] text-[var(--color-gold)]">con pestañas</span>
         </h1>
       </div>
 
