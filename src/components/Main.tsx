@@ -1,10 +1,10 @@
 import Section from "./pure/Section.tsx";
-import SeccionOne from "./sections/SeccionOne.tsx";
+import SectionHome from "./sections/SectionHome.tsx";
 
 const Main = () => {
   return (
     <main className={' mt-15 pt-7 '} >
-      <SeccionOne idName={'principal'} />
+      <SectionHome idName={'home'} />
       <Section idName={'entrenamiento'} />
       <Section idName={'servicios'} />
       <Section idName={'sobreMi'} />

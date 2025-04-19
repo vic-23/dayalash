@@ -35,6 +35,7 @@ const Nav = () => {
             <img src={star} alt={'star'} className={' absolute -bottom-4 left-3 w-8 h7 '} />
           </div>
           <div className={' w-full flex flex-col gap-4 pt-4 px-4 '} >
+            <LinkMenu closed={changeState} link={'#home'} linkTitle={'Home'} style={'py-3 border-b-1 border-(--color-gold)'} />
             <LinkMenu closed={changeState} link={'#entrenamiento'} linkTitle={'Entrenamientos'} style={'py-3 border-b-1 border-(--color-gold)'} />
             <LinkMenu closed={changeState} link={'#servicios'} linkTitle={'Servicios'} style={'py-3 border-b-1 border-(--color-gold)'} />
             <LinkMenu closed={changeState} link={'#sobreMi'} linkTitle={'Sobre mi'} style={'py-3 border-b-1 border-(--color-gold)'} />
