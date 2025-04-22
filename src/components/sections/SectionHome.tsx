@@ -1,11 +1,11 @@
 import seccionOneIMG from '../../assets/seccionOneIMG.svg';
 import star from '../../assets/star.svg'
 
-type SeccinOneProps = {
+type SectionOneProps = {
   idName: string;
 }
 
-const SectionHome = ({ idName }:SeccinOneProps) => {
+const SectionHome = ({ idName }:SectionOneProps) => {
   return (
     <section id={idName} className="relative z-0 h-screen flex flex-col border-b-2 border-(--color-gold)">
       <div className="px-4 mb-4">
