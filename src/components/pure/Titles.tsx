@@ -4,7 +4,7 @@ type TitlesProps = {
 
 const Titles = ({title}:TitlesProps) => {
   return (
-    <h1 className={' capitalize font-[Niramit] tracking-widest text-[18px] border-b-2 font-normal border-(--color-gold) '} >{title}</h1>
+    <h1 className={' font-[Niramit] tracking-widest text-[18px] border-b-2 font-normal border-(--color-gold) mb-2 '} >{title}</h1>
   )
 }
 
