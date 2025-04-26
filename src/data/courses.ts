@@ -1,24 +1,29 @@
+import card1 from "/assets/img/card1.svg";
+import card2 from  '/assets/img/card2.svg';
+import card3 from '/assets/img/card3.svg';
+
 export const courses = [
   {
     id: 1,
     title: 'entrenamiento inicial',
     description: 'Adquiere todo el conocimiento teórico y práctico para convertirte en una experta en extensiones de pestañas',
+    img: card1,
     features: [
       {
         id: 1,
-        text: 'teoría especializada sobre pestañas'
+        text: 'Teoría especializada sobre pestañas'
       },
       {
         id: 2,
-        text: 'técnica y aplicación de extensiones'
+        text: 'Técnica y aplicación de extensiones'
       },
       {
         id: 3,
-        text: 'práctica supervisada bajo guía profesional'
+        text: 'Práctica supervisada bajo guía profesional'
       },
       {
         id: 4,
-        text: 'manejo de cliente y emprendimiento'
+        text: 'Manejo de cliente y emprendimiento'
       }
     ],
     duration: '2 semanas',
@@ -28,6 +33,7 @@ export const courses = [
     id: 2,
     title: 'entrenamiento avanzado',
     description: 'lleva tu técnica al siguiente nivel y ofrece un servicio más preciso, duradero y personalizado',
+    img: card2,
     features: [
       {
         id: 1,
@@ -35,15 +41,15 @@ export const courses = [
       },
       {
         id: 2,
-        text: 'domina efectos como el wet look , volumen, híbrido y mapping avanzado '
+        text: 'Domina efectos como el wet look , volumen, híbrido y mapping avanzado '
       },
       {
         id: 3,
-        text: 'optimiza tu velocidad y técnica',
+        text: 'Optimiza tu velocidad y técnica',
       },
       {
         id: 4,
-        text: 'aprende a corregir errores y personalizar tus diseños'
+        text: 'Aprende a corregir errores y personalizar tus diseños'
       }
     ],
     duration: '2 semanas',
@@ -52,7 +58,8 @@ export const courses = [
   {
     id: 3,
     title: 'webinar exclusivo',
-    description: 'lleva tu técnica al siguiente nivel y ofrece un servicio más preciso, duradero y personalizado',
+    description: 'Lleva tu técnica al siguiente nivel y ofrece un servicio más preciso, duradero y personalizado',
+    img: card3,
     features: [
       {
         id: 1,
@@ -60,15 +67,15 @@ export const courses = [
       },
       {
         id: 2,
-        text: 'domina efectos como el wet look , volumen, híbrido y mapping avanzado '
+        text: 'Domina efectos como el wet look , volumen, híbrido y mapping avanzado '
       },
       {
         id: 3,
-        text: 'optimiza tu velocidad y técnica',
+        text: 'Optimiza tu velocidad y técnica',
       },
       {
         id: 4,
-        text: 'aprende a corregir errores y personalizar tus diseños'
+        text: 'Aprende a corregir errores y personalizar tus diseños'
       }
     ],
     duration: '2 semanas',
