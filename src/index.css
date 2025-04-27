@@ -41,3 +41,5 @@
   --color-dark-gray: #615F5F;
   --mobile-bg-position: -4rem ;
 }
+
+@plugin 'tailwind-scrollbar-hide';
