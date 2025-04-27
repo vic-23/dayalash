@@ -25,4 +25,4 @@ export const servises = [
     title: 'Volumen Tecnológico',
     description: 'Efecto natural, pelo a pelo',
   }
-]
+];
