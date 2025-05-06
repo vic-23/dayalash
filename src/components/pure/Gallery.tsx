@@ -9,12 +9,6 @@ interface GalleryImage {
   img: string;
 }
 
-declare module 'swiper/react' {
-  interface SwiperSlideProps {
-    progress?: number;
-  }
-}
-
 const Gallery = ({ images }: { images: GalleryImage[] }) => {
   const handleSetTranslate = (swiper: SwiperClass) => {
     swiper.slides.forEach((slideEl: HTMLElement & { progress?: number }) => {
