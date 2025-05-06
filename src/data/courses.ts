@@ -2,7 +2,17 @@ import card1 from "/assets/img/card1.svg";
 import card2 from  '/assets/img/card2.svg';
 import card3 from '/assets/img/card3.svg';
 
-export const courses = [
+type coursesProps = {
+  id: number;
+  title: string;
+  description: string;
+  img: string;
+  features: object[];
+  duration: string;
+  methodology: string;
+}
+
+export const courses:coursesProps[] = [
   {
     id: 1,
     title: 'entrenamiento inicial',

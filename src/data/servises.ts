@@ -1,6 +1,13 @@
 import eyelashes from '../assets/eyelashes.svg'
 
-export const servises = [
+type servisesProps = {
+  id: number;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export const servises:servisesProps[] = [
   {
     id: 1,
     icon: eyelashes,
