@@ -3,6 +3,7 @@ import Dayana from '../../assets/dayana.svg';
 import BgSobreMi from '../../assets/bgSobreMi.svg';
 import Gallery from "../pure/Gallery.tsx";
 import {gallery} from "../../data/gallery.ts";
+import star from "../../assets/star.svg";
 
 type SectionSobreMiProps = {
   idName: string;
@@ -10,7 +11,7 @@ type SectionSobreMiProps = {
 
 const SectionSobreMi = ({idName}:SectionSobreMiProps) => {
   return (
-    <section id={idName} className={' flex flex-col py-10 px-4 gap-10 '} >
+    <section id={idName} className={' relative border-b-2 border-[var(--color-gold)] flex flex-col pt-10 pb-14 px-4 gap-10 '} >
       <div>
         <div className={' flex flex-col items-center '} >
           <Titles title={'Un poco sobre mi'} />
@@ -31,6 +32,8 @@ const SectionSobreMi = ({idName}:SectionSobreMiProps) => {
           <Gallery images={gallery} />
         </div>
       </div>
+
+      <img src={star} alt="star" className="absolute -bottom-3.5 right-3 w-8 h-7" />
     </section>
   )
 }

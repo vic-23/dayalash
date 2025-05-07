@@ -14,10 +14,10 @@ const Gallery = ({ images }: { images: GalleryImage[] }) => {
     swiper.slides.forEach((slideEl: HTMLElement & { progress?: number }) => {
       const slideProgress = slideEl.progress || 0;
       const scale = 1 - Math.min(Math.abs(slideProgress) * 0.2, 0.4);
-      const opacity = 1 - Math.min(Math.abs(slideProgress) * 0.5, 0.6);
+      //const opacity = 1 - Math.min(Math.abs(slideProgress) * 0.5, 0.6);
 
       slideEl.style.transform = `scale(${scale})`;
-      slideEl.style.opacity = `${opacity}`;
+      //slideEl.style.opacity = `${opacity}`;
       slideEl.style.transition = 'transform 0.3s, opacity 0.3s';
     });
   };
@@ -34,7 +34,7 @@ const Gallery = ({ images }: { images: GalleryImage[] }) => {
       speed={5000}
       loop={true}
       modules={[Autoplay]}
-      className="w-screen "
+      className="w-screen"
       freeMode={true}
       centeredSlides={true}
       watchSlidesProgress={true}
@@ -45,7 +45,7 @@ const Gallery = ({ images }: { images: GalleryImage[] }) => {
           <img
             src={image.img}
             alt={image.alt}
-            className="w-full h-[450px] object-cover rounded-xl"
+            className="w-full h-[450px] object-cover shadow-2xl "
           />
         </SwiperSlide>
       ))}
