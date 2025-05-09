@@ -4,7 +4,7 @@ import Footer from "../components/Footer.jsx";
 
 const LandingPage = () => {
   return (
-    <div className='  '>
+    <div className=''>
       <Header />
       <Main />
       <Footer />
