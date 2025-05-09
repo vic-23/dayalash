@@ -1,8 +1,8 @@
-import Section from "./pure/Section.tsx";
 import SectionHome from "./sections/SectionHome.tsx";
 import SectionEntrenamiento from "./sections/SectionEntrenamiento.tsx";
 import SectionServicios from "./sections/SectionServicios.tsx";
 import SectionSobreMi from "./sections/SectionSobreMi.tsx";
+import SectionContacto from "./sections/SectionContacto.tsx";
 
 const Main = () => {
   return (
@@ -11,7 +11,7 @@ const Main = () => {
       <SectionEntrenamiento idName={'entrenamiento'}/>
       <SectionServicios idName={'servicios'} />
       <SectionSobreMi idName={'sobreMi'} />
-      <Section idName={'contacto'} />
+      <SectionContacto idName={'contacto'} />
     </main>
   )
 }

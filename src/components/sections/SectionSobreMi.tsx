@@ -20,7 +20,7 @@ const SectionSobreMi = ({idName}:SectionSobreMiProps) => {
         <div>
           <img src={Dayana} alt={'imagen'} />
           <div className={' bg-bottom-left rounded-bl-[124px] flex flex-col items-center gap-4 p-6 pb-14 min-w-fit '}  style={{ backgroundImage: `url(${BgSobreMi})` }}>
-            <h3 className={' font-[Niramit-bold] text-[clamp(1.5rem,7.5vw,4rem)] leading-[clamp(2.5rem,1vh,3rem)] '} >¡Hola! Soy Dayana, una apasionada del mundo de las pestañas y la belleza</h3>
+            <h3 className={' font-[Niramit-bold] text-[clamp(1.5rem,7.5vw,4rem)] leading-10 '} >¡Hola! Soy Dayana, una apasionada del mundo de las pestañas y la belleza</h3>
             <p className={' font-[Niramit] text-[clamp(1.125rem,2vw,2rem)] '} >Desde hace 8 años, he ayudado a cientos de mujeres a resaltar su mirada con técnicas de extensión de pestañas seguras y personalizadas. Mi misión es brindarte un servicio de calidad, con materiales premium y un acabado impecable que te haga sentir hermosa y segura de ti misma.</p>
           </div>
         </div>
