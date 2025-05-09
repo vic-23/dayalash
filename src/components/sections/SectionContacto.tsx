@@ -5,6 +5,7 @@ import BgSobreMi from "../../assets/bgSobreMi.svg";
 import iconWhatsapp from '../../assets/iconWhatsapp.svg';
 import iconEmail from '../../assets/iconEmail.svg';
 import iconUbication from '../../assets/iconUbication.svg';
+import star from "../../assets/star.svg";
 
 type SectionContactoProps = {
   idName: string
@@ -12,7 +13,7 @@ type SectionContactoProps = {
 
 const SectionContacto = ({idName}:SectionContactoProps) => {
   return (
-    <section id={idName} className={'min-h-screen flex flex-col items-center pt-10 px-4'} >
+    <section id={idName} className={' relative border-b-2 border-[var(--color-gold)] min-h-screen flex flex-col items-center py-10 px-4'} >
       <div className={' w-full flex flex-col items-center justify-center '} >
         <Titles title={'Citas y contactos'}/>
         <h1 className='flex flex-col leading-13 font-[Niramit-bold] text-[clamp(2.5rem,9vw,4rem)] text-center'>
@@ -46,6 +47,7 @@ const SectionContacto = ({idName}:SectionContactoProps) => {
           <Button text={'Contáctame'} style={''}  />
         </div>
       </div>
+      <img src={star} alt={'star'} className={' absolute -bottom-4 left-3 w-8 h7 '} />
     </section>
   )
 }
