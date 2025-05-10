@@ -2,7 +2,7 @@ type LinkProps = {
   link: string;
   linkTitle: string;
   style: string;
-  closed: () => void;
+  closed?: () => void;
 };
 
 const LinkMenu = ({link, linkTitle, style, closed}:LinkProps) => {
